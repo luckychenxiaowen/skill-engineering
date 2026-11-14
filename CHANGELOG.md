@@ -8,3 +8,4 @@
 - 修正 `skill-detector/README.md` 的「个人自研」表述为「基于 MIT 上游整合改编」。
 - 3 份 `README.md` 由模板骨架重写为「问题 / 用法 / 依赖 / 与其他 Skill 配合」结构。
 - 新增 `scripts/check-before-push.py`（白名单 3 项 + 上游署名与免责存在性检查）。
+## 2026-11-14 · 1.1.0 补章（仅新增）：三份 SKILL.md 追加输入 / 输出 / 判据 / 边界，删除行数为 0；skill-writer/README.md 未改动。
