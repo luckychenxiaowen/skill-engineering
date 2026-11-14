@@ -172,10 +172,6 @@ Karpathy Loop 流程（详见 `references/self-improve.md`）：
 
 Token 获取优先级：config.json → 环境变量 → 询问用户。
 
----
-
-*来源：`sunxingboo/skill-evaluator`（MIT，逐行复用 4 个文件，LICENSE 原样保留）；方法思路参考 `lanyasheng/skill-evaluator`（无许可证，无成段复制）。详见 `ATTRIBUTION.md`。*
-
 ## 什么时候不用
 
 - 被评对象还没有 `SKILL.md`，或连 frontmatter 都不存在 → 先补结构，再评
@@ -258,3 +254,7 @@ Token 获取优先级：config.json → 环境变量 → 询问用户。
 ## 元数据说明（已知缺口）
 
 当前 frontmatter 的 `name` 为中文「skill检测」，与本目录名 `skill-detector` 不一致。若加载器要求 `name` 为小写字母 / 数字 / 连字符，请将其改为 `skill-detector`。本文件当前按「只增不删」方式维护，故未改动该行，特此标注以免被误读为有意设计。
+
+---
+
+*来源：`sunxingboo/skill-evaluator`（MIT，逐行复用 4 个文件，LICENSE 原样保留）；方法思路参考 `lanyasheng/skill-evaluator`（无许可证，无成段复制）。详见 `ATTRIBUTION.md`。*
